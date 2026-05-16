@@ -1,0 +1,37 @@
+# Dependency folders (Bht heavy hote hain, inhein upload nahi krna)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Environment variables (Sensitive data, keys, aur passwords)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories (Production ka ready code jo deployment ke waqt banta hai)
+dist/
+build/
+.next/
+out/
+
+# Editor aur IDE specific files (Trae, VS Code ya Cursor ki personal settings)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Logs (Errors aur debug information)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
